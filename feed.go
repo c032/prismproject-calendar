@@ -58,7 +58,7 @@ func (f *Feed) Calendar(calendarID string, calendarName string) (*ical.Calendar,
 	cal.Props.SetText(ical.PropName, calendarName)
 	cal.Props.SetText("X-WR-CALNAME", calendarName)
 
-	propPublishedTTL := ical.NewProp("X-PUBLISHED-TTL:PT6H")
+	propPublishedTTL := ical.NewProp("X-PUBLISHED-TTL")
 	propPublishedTTL.SetDuration(8 * time.Hour)
 	cal.Props.Set(propPublishedTTL)
 

@@ -1,1 +1,1 @@
-*.ical text eol=crlf
+testdata/*.ical text eol=crlf

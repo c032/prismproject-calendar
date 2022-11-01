@@ -141,13 +141,13 @@ func (fi *FeedItem) ChannelURL() (*url.URL, error) {
 }
 
 func (fi *FeedItem) Published() (time.Time, error) {
-	t := time.Unix(fi.RawPublished, 0)
+	t := time.Unix(fi.RawPublished, 0).UTC()
 
 	return t, nil
 }
 
 func (fi *FeedItem) Scheduled() (time.Time, error) {
-	t := time.Unix(fi.RawScheduled, 0)
+	t := time.Unix(fi.RawScheduled, 0).UTC()
 
 	return t, nil
 }

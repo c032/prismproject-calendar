@@ -1,0 +1,36 @@
+name: 'build-gh-pages'
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-ical:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout'
+        uses: 'actions/checkout@v3'
+        with:
+          ref: 'gh-pages'
+
+      - name: 'Download schedule JSON file'
+        run: |
+          curl -vL 'https://vtubertools.sfo3.digitaloceanspaces.com/prismproject/youtube.json' > 'youtube.json'
+
+      - name: 'Install `json2ical`'
+        run: |
+          go install -v github.com/c032/prismproject-calendar/cmd/json2ical@latest
+
+      - name: 'Build `youtube.ical`'
+        run: |
+          "$(go env GOPATH)/bin/json2ical" -i youtube.json -o youtube.ical
+
+      - name: '`git config`'
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "<>"
+
+      - name: 'Commit and push'
+        run: |
+          git add --all -v
+          git commit -m 'Update'
+          git push origin gh-pages

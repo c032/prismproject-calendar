@@ -13,30 +13,6 @@ UID:gY8KonAA4yU
 URL:https://youtu.be/gY8KonAA4yU
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20221124T152434Z
-DTSTART:20221203T040000Z
-DURATION:PT3600S
-SUMMARY:【Chat】Ranking movies I watched with my wife and talking about them!【PRISM Project】
-UID:dWfGQvY3byE
-URL:https://youtu.be/dWfGQvY3byE
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20221127T024055Z
-DTSTART:20221203T020000Z
-DURATION:PT3600S
-SUMMARY:【Dead Space 2】I'll remember to cut the limbs this time...【PRISM Project Gen 3】
-UID:gBRBbkZioSY
-URL:https://youtu.be/gBRBbkZioSY
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20221127T023035Z
-DTSTART:20221204T000000Z
-DURATION:PT3600S
-SUMMARY:【WATCHALONG】Let's watch Black Christmas (1974) !!【PRISM Project Gen 3】
-UID:jyRZzrcxRhI
-URL:https://youtu.be/jyRZzrcxRhI
-END:VEVENT
-BEGIN:VEVENT
 DTSTAMP:20221123T205030Z
 DTSTART:20221204T230000Z
 DURATION:PT3600S
@@ -45,25 +21,46 @@ UID:52Sh-pk93Us
 URL:https://youtu.be/52Sh-pk93Us
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20221123T204922Z
-DTSTART:20221203T160000Z
-DURATION:PT3600S
-SUMMARY:Spick and span~【A Little to the Left】
-UID:2wZ3jkzvdFw
-URL:https://youtu.be/2wZ3jkzvdFw
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20221128T211348Z
-DTSTART:20221203T230000Z
-DURATION:PT3600S
-SUMMARY:【Cult of the Lamb】 Can we beat the 3rd Boss 👀
-UID:krG7NX7mhGY
-URL:https://youtu.be/krG7NX7mhGY
-END:VEVENT
-BEGIN:VEVENT
 DTSTAMP:20221201T090057Z
 DTSTART:20221205T060000Z
 DURATION:PT3600S
+SUMMARY:【Art Co-Work Stream】Let's try out the Pomodoro study method and get things done together! (15-5)
+UID:EDXWLHqLGf8
+URL:https://youtu.be/EDXWLHqLGf8
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20221201T085753Z
+DTSTART:20221204T060000Z
+DURATION:PT3600S
+SUMMARY:【Villain Plan】Time to plan out our diabolic plans
+UID:PwSrf-ieAqM
+URL:https://youtu.be/PwSrf-ieAqM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20221203T180531Z
+DTSTART:20221204T020000Z
+DURATION:PT3600S
+SUMMARY:【Naki (Weeb) Book Club】Let's Find Some Cool Short Anime To Watch uwub
+UID:Lq_vLBa76fE
+URL:https://youtu.be/Lq_vLBa76fE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20221204T000008Z
+DTSTART:20221204T054500Z
+DURATION:PT3600S
+SUMMARY:【Sleep Stream + VRChat】Trying To Sleep While You Blast My Eardrums With Alerts【PRISM Project Gen 3】
+UID:FaVSUmdTo9U
+URL:https://youtu.be/FaVSUmdTo9U
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20221203T235745Z
+DTSTART:20221204T040000Z
+DURATION:PT3600S
+SUMMARY:【Birthday Countdown】Getting Ready For The Celebration!【PRISM Project Gen 3】
+UID:b88T63mmqFQ
+URL:https://youtu.be/b88T63mmqFQ
+END:VEVENT
+END:VCALENDAR
 SUMMARY:【Art Co-Work Stream】Let's try out the Pomodoro study method and get things done together! (15-5)
 UID:EDXWLHqLGf8
 URL:https://youtu.be/EDXWLHqLGf8

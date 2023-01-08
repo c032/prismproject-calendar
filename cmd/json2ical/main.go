@@ -50,7 +50,7 @@ func main() {
 			f   *os.File
 		)
 
-		f, err = os.OpenFile(outputFile, os.O_RDWR|os.O_CREATE, 0o644)
+		f, err = os.OpenFile(outputFile, os.O_RDWR|os.O_CREATE|os.O_TRUNC, 0o644)
 		if err != nil {
 			fmt.Fprintf(os.Stderr, "Error opening file to write: %#v\n", outputFile)
 		}

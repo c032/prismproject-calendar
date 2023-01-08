@@ -24,6 +24,7 @@ jobs:
 
       - name: 'Build `youtube.ical`'
         run: |
+          rm -f youtube.ical
           "$(go env GOPATH)/bin/json2ical" -i youtube.json -o youtube.ical
 
       - name: '`git config`'

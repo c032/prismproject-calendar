@@ -16,24 +16,32 @@ BEGIN:VEVENT
 DTSTAMP:20240222T065929Z
 DTSTART:20240226T060000Z
 DURATION:PT3600S
-SUMMARY:【SPECIAL ANNOUNCEMENT + Suck Up!】Super special announcement + some big succ & chill after
+SUMMARY:【SPECIAL ANNOUNCEMENT】Super special announcement\, No succing this time\, unfortunately 😔
 UID:WUxwqfCnflY
 URL:https://youtu.be/WUxwqfCnflY
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20240223T035032Z
-DTSTART:20240225T120000Z
+DTSTAMP:20240225T092007Z
+DTSTART:20240226T020000Z
 DURATION:PT3600S
-SUMMARY:【手元カメラ】ピクミングッズ紹介するよ！グミも食べる【PRISM Project】
-UID:V7rz5Z3YQew
-URL:https://youtu.be/V7rz5Z3YQew
+SUMMARY:summertime | cinnamons × evening cinema (Astel Leda x Nana Asteria cover)
+UID:NeBqGg-wrwI
+URL:https://youtu.be/NeBqGg-wrwI
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20240223T034459Z
-DTSTART:20240225T040000Z
+DTSTAMP:20240225T125540Z
+DTSTART:20240226T020000Z
 DURATION:PT3600S
-SUMMARY:【Handcam】Welcome to the Mad Scientist lab!【PRISM Project】
-UID:t_3vPgnGT70
-URL:https://youtu.be/t_3vPgnGT70
+SUMMARY:celebrating new cover song!!🌟[VTUBER]
+UID:3tnbopIYKnE
+URL:https://youtu.be/3tnbopIYKnE
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240225T163934Z
+DTSTART:20240226T130000Z
+DURATION:PT3600S
+SUMMARY:【Golden Sun】Part 8! Cloak ball why?
+UID:1akHn5cxMEE
+URL:https://youtu.be/1akHn5cxMEE
 END:VEVENT
 END:VCALENDAR
